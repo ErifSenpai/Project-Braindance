@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #27272c;
+    background-image: url("sfondoGame.jpg");
   }
   
   .bottoni
@@ -122,4 +122,14 @@
   h1{
 
     color: white;
+    position: absolute;
+    top: 20%;
+    left: 40%
+  }
+
+  h2{
+    color:white;
+    position: absolute;
+    top: 25%;
+    left: 43%
   }

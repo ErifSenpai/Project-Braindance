@@ -34,5 +34,3 @@ function videogameType()
     console.log(gameType);
 }
 
-
-
