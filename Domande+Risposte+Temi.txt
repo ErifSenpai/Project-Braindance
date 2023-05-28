@@ -25,10 +25,39 @@ Temi{
                 C.Warriors
                 D.Celtics
             )
+            Quale tra questi giocatori di calcio ha giocato nella stagione 22/23 al Bologna FC?(
+                A.Marko Arnautovic,T
+                B.David Okereke
+                C.Domenico Berardi
+                D.Kingsley Ehizibue
+            )
         }
     )
     Musica(
-
+            Quale tra questi artisti detiene il primo posto per ascolti su Spotify?(
+                A.David Guetta
+                B.Dua Lipa
+                C.TheWeeknd,T
+                D.Drake
+            )
+            Da chi è stata cantata Stayin Alive nel 1977?(
+                A.Bee Gees,T
+                B.Michael Jackson
+                C.Gloria Gaynor
+                D.Rick Astley
+            )
+            Chi ha vinto l'edizione 2023 di Sanremo(
+                A.Mr Rain,T
+                B.Lazza
+                C.Ultimo
+                D.Marco Mengoni
+            )
+            Per quale motivo è stata scritta We Are The World(
+                A.Per sostenere il movimento LGBTQ+
+                B.Per sostenere il movimento Black Lives Matter
+                C.Per scopo di beneficenza per supportare le popolazione in Etiopia,T
+                D.Per sostenere la creazione della diga del Vajont
+            )
     )
     Videogiochi(
 
