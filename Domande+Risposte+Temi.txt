@@ -7,7 +7,7 @@ Temi{
                 C.Napoli,T
                 D.Milan
             )
-            Chi ha seganto più gol nella stagione 2022/2023?(
+            Chi ha segnato più gol nella stagione 2022/2023?(
                 A.Victor Osihmen,T
                 B.Rafael Leao
                 C.Lautaro Martinez
@@ -47,10 +47,10 @@ Temi{
                 D.Rick Astley
             )
             Chi ha vinto l'edizione 2023 di Sanremo(
-                A.Mr Rain,T
+                A.Mr Rain
                 B.Lazza
                 C.Ultimo
-                D.Marco Mengoni
+                D.Marco Mengoni,T
             )
             Per quale motivo è stata scritta We Are The World(
                 A.Per sostenere il movimento LGBTQ+
