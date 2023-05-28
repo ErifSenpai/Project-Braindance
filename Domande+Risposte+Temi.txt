@@ -1,0 +1,39 @@
+Temi{   
+    Sport(
+        Domande{    
+            Chi ha vinto lo scudetto 2022/2023?(    
+                A.Juventus
+                B.Inter
+                C.Napoli
+                D.Milan
+            )
+            Chi ha seganto più gol nella stagione 2022/2023?(
+                A.Victor Osihmen
+                B.Rafael Leao
+                C.Lautaro Martinez
+                D.Paulo Dybala
+            )
+            Chi ha fatto più parate nella stagione 2022/2023?(
+                A.Alex Meret
+                B.Mattia Perin
+                C.Ionut Radu
+                D.Mike Maignan
+            )
+            Chi ha fatto più partite vinte nella regular season 22/23 del NBA?(
+                A.Bucks
+                B.Lakers
+                C.Warriors
+                D.Celtics
+            )
+        }
+    )
+    Musica(
+
+    )
+    Videogiochi(
+
+    )
+    Cinema(
+        
+    )
+}
