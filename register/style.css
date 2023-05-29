@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --pink: #efa999;
+    --pink-bg: #f5e6e2;
+    --dark-pink: #a32d2d;
+    --red: rgb(161, 0, 0);
+    --bg-red: rgba(161, 0, 0, 0.1);
+    --green: rgb(0, 181, 0);
+    --bg-green: rgb(0, 181, 0, 0.1);
+}
+.material-symbols-outlined {
+    color: var(--pink);
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+body, html {
+    margin: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* LOGIN BOX */
+
+.register .img {
+    width: 30rem;
+    height: auto;
+    margin-bottom: 2rem;
+}
+.register .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--pink-bg);
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.register .credentials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.register .credential {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid var(--pink);
+    margin-bottom: 1rem;
+}
+.register .title {
+    padding: 0;
+    margin: 0 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.3rem;
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--dark-pink);
+}
+.register .label {
+    color: var(--dark-pink);
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 0.7rem 0;
+}
+.register .text {
+    margin-left: 7px;
+    border: none;
+    color: var(--red);
+    background-color: transparent;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    width: 20rem;
+}
+.register .text::placeholder {
+    font-family: 'Montserrat', sans-serif;
+}
+.register .text:focus {
+    outline: none;
+}
+.register .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 9rem;
+}
+.register .submit {
+    padding: 1rem 2.5rem;
+    background-color: var(--pink);
+    color: var(--pink-bg);
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border-radius: 2.5rem;
+    border: 1px solid var(--pink);
+    transition: 0.2s ease-in-out;
+}
+.register .submit:hover {
+    padding: 1.2rem 2.3rem;
+    background-color: var(--pink);
+    color: var(--pink-bg);
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-radius: 3rem;
+    border: 1px solid var(--pink);
+    box-shadow: 0px 0px 10px 2px var(--pink);
+    cursor: pointer;
+}
+.register .extra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.register .redirect {
+    text-decoration: underline;
+    color: var(--red);
+    font-size: 1.2rem;
+}
+
+/* ERRORS */
+
+.w-box {
+    display: flex;
+    flex-direction: column;
+    padding: 0.4rem;
+}
+.w-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+}
+.red {
+    border: 1px solid var(--red);
+    background-color: var(--bg-red);
+    color: red;
+}
+.green {
+    border: 1px solid var(--green);
+    background-color: var(--bg-green);
+    color: green;
+}
