@@ -1,0 +1,36 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Century Gothic;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+  }
+  .text {
+    color: white;
+    font-size: 10vh;
+    margin: 0 0 2vh 0;
+    padding: 0;
+  }
+  .lose {
+  	color: red;
+    font-size: 30vh;
+    margin: 0 0 2vh 0;
+    padding: 0;
+  }
+  .win {
+  color: green;
+  font-size: 30vh;
+    margin: 0 0 2vh 0;
+    padding: 0;
+  }
+  .subtext {
+  color: white;
+  font-size: 5vh;
+  text-decoration: underline;
+  }

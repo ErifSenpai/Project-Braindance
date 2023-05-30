@@ -60,14 +60,14 @@ foreach ( $rows as $row ){
     <h2> Scegli una categoria!</h2>
 	
     <div id="bottoni">
-    <button id= "musica" name = "musica" style="--clr:#0FF0FC"><span><?php echo $categorie[1] ?></span><i></i></button>
-    <button id="videogiochi" name = "videogiochi" style="--clr:#8A2BE2" ><span><?php echo $categorie[2] ?></span><i></i> </button> 
-    <button id="cinema" name = "cinema" style="--clr:#0FF0FC"><span><?php echo $categorie[3] ?></span><i></i></button>
-    <button id="sport" name = "sport" style="--clr:#8A2BE2" ><span><?php echo $categorie[0] ?></span><i></i></button>
+    <button class="button" id= "musica" name = "musica" style="--clr:#0FF0FC"><span><?php echo $categorie[1] ?></span><i></i></button>
+    <button class="button" id="videogiochi" name = "videogiochi" style="--clr:#8A2BE2" ><span><?php echo $categorie[2] ?></span><i></i> </button> 
+    <button class="button" id="cinema" name = "cinema" style="--clr:#0FF0FC"><span><?php echo $categorie[3] ?></span><i></i></button>
+    <button class="button" id="sport" name = "sport" style="--clr:#8A2BE2" ><span><?php echo $categorie[0] ?></span><i></i></button>
     
 </div>
 <br>
-<form action="" method="post" class="button">
+<form action="" method="post" class="esci">
 	<input id="disconnect" type="submit" name="disconnect" class="exit" value="ESCI"/>
 </form>
 </center>

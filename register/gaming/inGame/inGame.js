@@ -1,4 +1,4 @@
-var id = new URLSearchParams(window.location.search).get('cat');
+2var id = new URLSearchParams(window.location.search).get('cat');
 
 document.addEventListener('DOMContentLoaded', attivaEventi);
 
@@ -11,11 +11,11 @@ function attivaEventi()
 
 function win()
 {
-    window.location.href = "http://michaelmontanari.altervista.org/quintac/Project_Braindance/register/gaming/inGame/esito/win.html";
+    window.location.href = "http://michaelmontanari.altervista.org/quintac/Project_Braindance/register/gaming/inGame/esito/win.php";
 }
 
 function lose()
 {
-    window.location.href = "http://michaelmontanari.altervista.org/quintac/Project_Braindance/register/gaming/inGame/esito/lose.html";
+    window.location.href = "http://michaelmontanari.altervista.org/quintac/Project_Braindance/register/gaming/inGame/esito/lose.php";
 }
 

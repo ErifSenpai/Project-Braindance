@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-
 session_start();
+if(!isset($_SESSION['logged']) || $_SESSION['logged'] != true) {
+	header("Location: ../../login.php", true, 303);
+}
 
 $id = $_GET['cat'];
-echo $_GET["cat"];
 
-if ($id = "sport")
+if ($id == "sport")
 {
 	$id_categoria = 1;
 }
-if ($id = "cinema")
+if ($id == "cinema")
 {
 	$id_categoria = 4;
 }
-if ($id = "videogiochi")
+if ($id == "videogiochi")
 {
 	$id_categoria = 3;
 }
-if ($id = "musica")
+if ($id == "musica")
 {
 	$id_categoria = 2;
 }
@@ -92,28 +93,24 @@ foreach ( $rows1 as $row1 ){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GAME IS ONNNN</title>
-    <script src="inGame.js"></script>
+     <script src="inGame.js"></script>
      <link rel="stylesheet" href="inGame.css">
 </head>
 <body>
 
 <center>
 
-<h1>GET READY</h1>
+<h1><?php echo $_GET["cat"];?></h1>
 
-<h2> Categoria: <?php echo $id ?></span></h2>
-<h3> <?php echo $domande[0]; ?> </h3>
+<h2> <?php echo $domande[0]; ?> </h2>
 
 <div id="bottoni_risp">
- 	<button id= "err" name = "musica" style="--clr:#0FF0FC"><span><?php echo $risposte_sbagliate[0] ?></span><i></i></button>
-    <button id="err" name = "videogiochi" style="--clr:#8A2BE2" ><span><?php echo $risposte_sbagliate[1] ?></span><i></i> </button> 
-    <button id="err" name = "cinema" style="--clr:#0FF0FC"><span><?php echo $risposte_sbagliate[2] ?></span><i></i></button>
-    <button id="giust" name = "sport" style="--clr:#8A2BE2" ><span><?php echo $risposta[0] ?></span><i></i></button>
+ 	<button id="err" name = "musica" class = "risposta" ><span><?php echo $risposte_sbagliate[0] ?></span><i></i></button>
+    <button id="err" name = "videogiochi" class = "risposta"  ><span><?php echo $risposte_sbagliate[1] ?></span><i></i> </button> 
+    <button id="err" name = "cinema" class = "risposta" ><span><?php echo $risposte_sbagliate[2] ?></span><i></i></button>
+    <button id="giust" name = "sport" class = "risposta" ><span><?php echo $risposta[0] ?></span><i></i></button>
 </div>
 
-<form action="" method="POST">
-<input type="submit" name="disconnect" value="Esci" />
-</form>
 </center>
 
 </body>
